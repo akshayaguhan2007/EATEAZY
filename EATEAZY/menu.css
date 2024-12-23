@@ -1,0 +1,257 @@
+header{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: silver;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+}
+.eateazy{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 2em;
+    color: #080606;
+    user-select: none;
+}
+.navigation a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+    font-size: 1.1em;
+    color: #080606;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.navigation a::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transform-origin:right ;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+.navigation a:hover:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transform-origin:left;
+    transform: scaleX(1);
+}
+#d{
+    font-size: 60px;
+    display: inline-block;
+}
+#e{
+    font-size: 60px;
+    display: inline-block;
+}
+.demo{
+    border-radius: 25px;
+    margin-top: 60px;
+    float: right;
+    display: inline-block;
+}
+.demo1{
+    display: inline-block;
+    float: left;
+}
+.demo0{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+}
+#de{
+    font-size: 25px;
+    padding-left: 2px;
+}
+#dem{
+    text-align: left;
+    font-size: 40px;
+}
+#Search{
+    border-radius: 10px;
+    margin-top: 40px;
+    width: 100%;
+    height: 35px;
+}
+#but{
+    font-size: 35px;
+    border-radius: 10px;
+    background-color:green;
+    color: white;
+}
+#h{
+    background-color: black;
+    border: 1px solid black;
+}
+#v{
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#veg{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 25px;
+    width: 30%;
+    background-color: aliceblue;
+    color: #080606;
+}
+#ve{
+    color: #080606;
+}
+#ve:hover{
+    color: white;
+}
+#veg:hover{
+    background-color: silver;
+    color: white;
+}
+#nveg{
+    margin-top:20px ;
+    margin-left: 20px;
+    font-size:30px ;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#nve{
+    color: black;
+}
+#nveg:hover{
+    background-color: silver;
+    color: white;
+}
+#nve:hover{
+    color:white;
+}
+#jui{
+    margin-top:20px ;
+    margin-left: 20px;
+    font-size:30px ;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#ju{
+    color: black;
+}
+#jui:hover{
+    background-color: silver;
+}
+#ju:hover{
+    color: white;
+}
+#veg2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#ve2{
+    color: black;
+}
+#nveg2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: green;
+    width: 30%;
+}
+#nve2{
+    color: white;
+}
+#jui2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#ju2{
+    color: black;
+}
+#veg2:hover{
+    background-color: silver;
+}
+#ve2:hover{
+    color: white;
+}
+#jui2:hover{
+    background-color: silver;
+}
+#ju2:hover{
+    color: white;
+}
+#v2{
+    display: inline-block;
+    margin-bottom: 80px;
+}
+#veg3{
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#ve3{
+    color: black;
+}
+#nveg3{
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: white;
+    width: 30%;
+}
+#nve3{
+    color: black;
+}
+#jui3{
+    margin-top: 20px;
+    margin-left:20px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: green;
+    width: 30%;
+}
+#ju3{
+    color: white;
+}
+#veg3:hover{
+    background-color: silver;
+}
+#ve3:hover{
+    color: white;
+}
+#nveg3:hover{
+    background-color: silver;
+}
+#nve3:hover{
+    color: white;
+}

@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <title>EAT EAZY</title>
+        <link rel="icon" href="c:\Users\AKSHAYA GUHAN S\OneDrive\Documents\EATEAZY NEW LOGO.jpg">
+        <link rel="stylesheet" href="C:\Code\EATEAZY\buttershake.css">
+    </head>
+    <body>
+        
+        <header>
+            <h2 class="eateazy">EAT EAZY</h2>
+            <nav class="navigation">
+                <a href="C:\Code\EATEAZY\home.html">HOME</a>
+                <a href="C:\Code\EATEAZY\about.html">ABOUT</a>
+                <a href="C:\Code\EATEAZY\report.html">REPORT</a>
+                <a href="C:\Code\EATEAZY\menu1.html">MENU</a>
+             <button class="btnlogin-popup">LOGIN</button>
+            </nav>
+         </header>
+        
+<body>
+    <center>
+        <img src="c:\Users\AKSHAYA GUHAN S\Downloads\BUTTER SHAKE.jpg" height="350"; width="350"; />
+        <h1>BUTTERSCOTCH MILKSHAKE</h1>
+
+        <h2>ADD A COOKING REQUEST</h2>
+
+        <div class="form-container">
+            <label for="allergy">ALLERGY ALERT:</label>
+            <input type="text" id="allergy" placeholder="kindly enter..." />
+
+            <label for="spice-level">COOKING INSTRUCTION:</label>
+            <input type="text" id="spice-level" placeholder="Comment" />
+
+            <label for="review">REVIEW:</label>
+            
+            <textarea id="review" placeholder="Write your review here..."></textarea>
+        </div>
+
+        <div class="rating">
+            <label for="rating">Rate the Food:</label>
+            <input type="radio" id="star5" name="rating" />
+            <label for="star5">5⭐</label>
+            <input type="radio" id="star4" name="rating" />
+            <label for="star4">4⭐</label>
+            <input type="radio" id="star3" name="rating" />
+            <label for="star3">3⭐</label>
+            <input type="radio" id="star2" name="rating" />
+            <label for="star2">2⭐</label>
+            <input type="radio" id="star1" name="rating" />
+            <label for="star1">1⭐</label>
+        </div>
+
+        <!-- Veg/Non-Veg radio buttons -->
+        <div class="veg-nonveg-container">
+            <label for="veg">Veg</label>
+            <input type="radio" id="veg" name="food-type" />
+            <label for="nonveg">Non-Veg</label>
+            <input type="radio" id="nonveg" name="food-type" />
+        </div>
+
+        <div class="quantity-container">
+            <button onclick="decrementQuantity()">-</button>
+            <input type="number" id="quantity" value="1" min="1" />
+            <button onclick="incrementQuantity()">+</button>
+        </div>
+
+        <div class="food-price">
+            <p>Price: ₹60</p>
+        </div>
+
+        <button class="add-item-btn" onclick="addItemToCart()">Add Item</button>
+    </center>
